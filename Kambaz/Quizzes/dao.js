@@ -1,6 +1,6 @@
 import model from "./model.js";
-import questionModel from "../questions/model.js";
-import attemptModel from "../attempts/model.js";
+import questionModel from "../Auestions/model.js";
+import attemptModel from "../Attempts/model.js";
 import { v4 as uuidv4 } from "uuid";
 
 export default function QuizzesDao() {
